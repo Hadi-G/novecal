@@ -36,7 +36,9 @@ var mdp = 'Novecal2017';
 app.get('/form', function(req, res){
   if(req.query.userName == userName && req.query.mdp == mdp){
     ContactModel.find(function (err, contacts){
-      res.send(contacts);
+      var mailingList = contacts;
+      console.log(mailingList);
+      res.render('mailingList', {list:mailingList});
     });
   } else {
     res.render('form');

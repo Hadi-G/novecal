@@ -324,7 +324,7 @@ Waypoints
 .delay-04s { animation-delay: 0.4s; -webkit-animation-delay: 0.4s; }
 .delay-07s { animation-delay: 0.7s; -webkit-animation-delay: 0.7s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
-.wp3 { background: url('../img/exemple.png') no-repeat left top; background-position: center top; height: 100%; background-size:90%; background-color:#fff; }
+.wp3 { background: url('../img/table.png') no-repeat left top; background-position: center top; height: 100%; background-size:80%; background-color:#fff; }
 
 
 .photo{
@@ -341,7 +341,7 @@ Waypoints
 	color:#fff;
 }
 
-.swag2 { background: url('../img/logo2.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: auto; background-attachment: local; padding: 200px 0; background-color:#fff; }
+.swag2 { background: url('../img/logo2.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: auto; background-attachment: local; padding: 125px 0; background-color:#fff; }
 
 .list{
 	/*font-weight: bold;*/

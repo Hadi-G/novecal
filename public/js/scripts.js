@@ -66,10 +66,10 @@ $(function() {
 });
 
 /***************** Nav Transformicon ******************/
-
-document.querySelector("#nav-toggle").addEventListener("click", function() {
-	this.classList.toggle("active");
-});
+//
+// document.querySelector("#nav-toggle").addEventListener("click", function() {
+// 	this.classList.toggle("active");
+// });
 
 /***************** Overlays ******************/
 
@@ -140,4 +140,21 @@ $(window).load(function() {
 		}
 	});
 
+});
+
+
+var copy = document.querySelector('#copyAll');
+var btn = document.getElementById('btnCopy');
+
+// const copyArray = Array.from(copy);
+//
+// const email = copyArray.map(mail => mail.innerHTML);
+
+console.log(copy);
+
+btn.addEventListener('click', function(){
+	console.log('ok');
+		copy.select();
+		document.execCommand('copy');
+		return false;
 });

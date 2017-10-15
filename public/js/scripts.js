@@ -146,10 +146,6 @@ $(window).load(function() {
 var copy = document.querySelector('#copyAll');
 var btn = document.getElementById('btnCopy');
 
-// const copyArray = Array.from(copy);
-//
-// const email = copyArray.map(mail => mail.innerHTML);
-
 console.log(copy);
 
 btn.addEventListener('click', function(){

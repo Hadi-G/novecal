@@ -30,8 +30,8 @@ app.get('/contact', function(req, res){
   });
 });
 
-var userName = 'novecal';
-var mdp = 'Novecal2017';
+var userName = confidential
+var mdp = confidential
 
 app.get('/form', function(req, res){
   if(req.query.userName == userName && req.query.mdp == mdp){
